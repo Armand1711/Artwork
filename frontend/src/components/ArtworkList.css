@@ -1,0 +1,15 @@
+.artwork {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.artwork h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.artwork p {
+    font-size: 14px;
+    color: #666; 
+}
