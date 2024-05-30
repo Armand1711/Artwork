@@ -1,15 +1,32 @@
-.artwork {
+/* src/components/ArtworkList.css */
+.artwork-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .artwork {
     border: 1px solid #ccc;
     padding: 10px;
-    margin-bottom: 10px;
-}
-
-.artwork h3 {
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .artwork h3 {
     font-size: 18px;
     color: #333;
-}
-
-.artwork p {
+  }
+  
+  .artwork p {
     font-size: 14px;
     color: #666; 
-}
+  }
+  
+  .artwork img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+  
