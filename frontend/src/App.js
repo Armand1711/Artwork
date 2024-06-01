@@ -13,7 +13,7 @@ import { CartProvider } from './contexts/CartContext'; // Import CartProvider
 function App() {
   return (
     <Router>
-      <CartProvider> {/* Wrap your entire application with CartProvider */}
+      <CartProvider> 
         <div className="App">
           <nav className="navbar">
             <ul>

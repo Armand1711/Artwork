@@ -57,12 +57,12 @@ const ArtworkList = () => {
 
 const convertToZAR = (price) => {
   if (!price || isNaN(price)) {
-    return 'Price not available'; // Return a placeholder if price is not available or not a number
+    return 'Price not available'; 
   }
-  // Assuming price is in USD, you can adjust this conversion as needed
-  const exchangeRate = 14.62; // 1 USD = 14.62 ZAR (example rate)
+  
+  const exchangeRate = 14.62; 
   const priceInZAR = price * exchangeRate;
-  return `ZAR ${priceInZAR.toFixed(2)}`; // Format price to two decimal places
+  return `ZAR ${priceInZAR.toFixed(2)}`; 
 };
 
 export default ArtworkList;

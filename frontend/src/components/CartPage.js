@@ -20,7 +20,7 @@ const CartPage = () => {
           ))}
         </ul>
       )}
-      {/* Implement checkout functionality */}
+     
     </div>
   );
 };
