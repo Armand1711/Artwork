@@ -1,87 +1,86 @@
 /* src/components/Home.css */
 .home-container {
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-  }
-  
-  .home-header {
-    background-color: #f0f0f0;
-    padding: 50px 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .home-header h1 {
-    font-size: 36px;
-    color: #333;
-  }
-  
-  .home-header p {
-    font-size: 18px;
-    color: #666;
-  }
-  
-  .home-content {
-    margin-top: 20px;
-  }
-  
-  .featured-artworks, .about-us, .contact-us {
-    margin-bottom: 40px;
-  }
-  
-  .featured-artworks h2, .about-us h2, .contact-us h2 {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .artwork-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .artwork-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    width: 200px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-  }
-  
-  .artwork-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .artwork-card img {
-    width: 100%;
-    height: auto;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 10px;
-  }
-  
-  .artwork-card p {
-    font-size: 16px;
-    color: #333;
-  }
-  
-  .about-us p, .contact-us p {
-    font-size: 16px;
-    color: #666;
-  }
-  
-  .contact-us a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .contact-us a:hover {
-    text-decoration: underline;
-  }
-  
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.home-header {
+  background-color: #f0f0f0;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.home-header p {
+  font-size: 18px;
+  color: #666;
+}
+
+.home-content {
+  margin-top: 20px;
+}
+
+.featured-artworks, .about-us, .contact-us {
+  margin-bottom: 40px;
+}
+
+.featured-artworks h2, .about-us h2, .contact-us h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.artwork-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.artwork-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.artwork-card:hover {
+  transform: translateY(-5px);
+}
+
+.artwork-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.artwork-card p {
+  font-size: 16px;
+  color: #333;
+}
+
+.about-us p, .contact-us p {
+  font-size: 16px;
+  color: #666;
+}
+
+.contact-us a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-us a:hover {
+  text-decoration: underline;
+}

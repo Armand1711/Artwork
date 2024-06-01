@@ -1,32 +1,53 @@
 /* src/components/ArtworkList.css */
-.artwork-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .artwork {
+
+
+.artwork-page {
+    padding: 20px;
+}
+
+
+.artwork-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center; 
+    padding: 0 20px; 
+}
+
+
+.artwork-card {
     border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    text-align: center;
-  }
-  
-  .artwork h3 {
-    font-size: 18px;
-    color: #333;
-  }
-  
-  .artwork p {
-    font-size: 14px;
-    color: #666; 
-  }
-  
-  .artwork img {
-    max-width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.artwork-image {
+    width: 100%;
     height: auto;
-    display: block;
-    margin: 10px auto;
-  }
-  
+}
+
+.artwork-details {
+    padding: 10px;
+}
+
+.artwork-details h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.artwork-details p {
+    margin: 5px 0;
+}
+
+.artwork-details button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.artwork-details button:hover {
+    background-color: #0056b3;
+}

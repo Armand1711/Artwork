@@ -1,0 +1,22 @@
+/* src/components/About.css */
+.about-container {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.about-container h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.about-container p:last-child {
+  margin-bottom: 0;
+}
